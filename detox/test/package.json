@@ -21,6 +21,7 @@
     "verify-artifacts:android": "jest ./scripts/verify_artifacts_are_not_missing.android.test.js --testEnvironment node"
   },
   "dependencies": {
+    "@jest/reporters": "^24.9.0",
     "moment": "^2.24.0",
     "react": "16.8.3",
     "react-native": "0.59.9"
@@ -30,6 +31,7 @@
     "detox": "^14.0.3",
     "express": "^4.15.3",
     "jest": "24.6.x",
+    "@jest/reporters": "^24.9.0",
     "lodash": "^4.14.1",
     "nyc": "^14.0.0"
   },
